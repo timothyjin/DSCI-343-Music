@@ -1563,7 +1563,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Rollin","Calvin Harris Featuring Future & Khalid",97,62,0,4
 "Element.","Kendrick Lamar",98,16,100,11
 "Slide","Calvin Harris Featuring Frank Ocean & Migos",45,25,32,20
-"Bam","JAY-Z Featuring Damian 'Jr. Gong' Marely",47,47,0,1
+"Bam","JAY-Z Featuring Damian 'Jr. Gong' Marley",47,47,0,1
 "Hurricane","Luke Combs",50,31,46,22
 "Family Feud","JAY-Z Featuring Beyonce",51,51,0,1
 "Kill Jay Z","JAY-Z",55,55,0,1
@@ -2840,8 +2840,8 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Where You Belong","The Weeknd",95,95,0,1
 "I Put A Spell On You","Annie Lennox",97,97,0,1
 "Keep Your Money","Empire Cast Featuring Jussie Smollett",99,99,0,1
-"Work It","Missy "Misdemeanor" Elliott",35,2,0,26
-"Get Ur Freak On","Missy "Misdemeanor" Elliott",40,7,0,25
+"Work It","Missy 'Misdemeanor' Elliott",35,2,0,26
+"Get Ur Freak On","Missy 'Misdemeanor' Elliott",40,7,0,25
 "Waves","Mr. Probz",46,14,39,25
 "Body Language","Kid Ink Featuring Usher & Tinashe",85,72,94,18
 "Beg For It","Iggy Azalea Featuring M0",91,27,83,16
@@ -3262,7 +3262,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Play It Again","Luke Bryan",55,14,57,20
 "Who Do You Love?","YG Featuring Drake",82,54,82,20
 "Tennis Court","Lorde",90,71,80,18
-"Word Crimes",""Weird Al" Yankovic",91,39,39,2
+"Word Crimes","'Weird Al' Yankovic",91,39,39,2
 "Happy Little Pill","Troye Sivan",92,92,0,1
 "Whiskey In My Water","Tyler Farr",100,52,81,18
 "Everything I Didn't Say","5 Seconds Of Summer",24,24,0,1
@@ -5609,7 +5609,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Favorite Girl","Justin Bieber",73,26,26,2
 "Successful","Drake Featuring Trey Songz & Lil Wayne",85,17,75,18
 "Whatever You Like","Anya Marina",88,88,0,1
-"God In Me","Mary Mary Featuring Kierra "KiKi" Sheard",90,68,88,20
+"God In Me","Mary Mary Featuring Kierra 'KiKi' Sheard",90,68,88,20
 "Jump Then Fall","Taylor Swift",91,10,41,3
 "American Ride","Toby Keith",96,35,85,16
 "Undertow","Timbaland Featuring The Fray & Esthero",100,100,0,1
@@ -5749,7 +5749,6 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Uprising","Muse",67,37,66,4
 "I'm Going In","Drake Featuring Lil Wayne & Young Jeezy",68,40,60,3
 "Starstrukk","3OH!3 Featuring Katy Perry",69,69,73,7
-"God In Me","Mary Mary Featuring Kierra "KiKi" Sheard",70,68,68,14
 "Love Your Love The Most","Eric Church",71,63,69,15
 "Number One","R. Kelly Featuring Keri Hilson",72,72,80,6
 "Wheels","Foo Fighters",73,73,0,1
@@ -6916,7 +6915,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Zoom","Lil' Boosie Featuring Yung Joc",98,61,79,12
 "Far Away","Nickelback",48,8,36,30
 "Hurt","Christina Aguilera",59,19,53,20
-"White & Nerdy",""Weird Al" Yankovic",74,9,76,20
+"White & Nerdy","'Weird Al' Yankovic",74,9,76,20
 "Not Fade Away","Sheryl Crow",78,78,0,1
 "Be Good To Me","Ashley Tisdale",80,80,96,2
 "Red High Heels","Kellie Pickler",83,64,78,11
@@ -7039,7 +7038,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Call On Me","Janet & Nelly",85,25,74,18
 "Like Red On A Rose","Alan Jackson",90,80,89,5
 "Remember The Name","Fort Minor Featuring Styles Of Beyond",94,66,88,6
-"Canadian Idiot",""Weird Al" Yankovic",98,82,94,3
+"Canadian Idiot","'Weird Al' Yankovic",98,82,94,3
 "Shoulder Lean","Young Dro Featuring T.I.",36,10,32,20
 "Me & U","Cassie",45,3,42,27
 "Hips Don't Lie","Shakira Featuring Wyclef Jean",47,1,44,31
@@ -7508,7 +7507,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Don't Phunk With My Heart","The Black Eyed Peas",46,3,44,26
 "Get It Poppin'","Fat Joe Featuring Nelly",58,9,51,20
 "As Good As I Once Was","Toby Keith",66,28,56,20
-"Welcome To Jamrock","Damian "Jr. Gong" Marley",74,55,65,12
+"Welcome To Jamrock","Damian 'Jr. Gong' Marley",74,55,65,12
 "Back Then","Mike Jones",76,22,73,20
 "Tell Me","Bobby Valentino",87,51,81,14
 "Footprints","T.O.K.",100,93,93,6
@@ -8160,7 +8159,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "So Far Away","Staind",44,24,42,28
 "Honesty (Write Me A List)","Rodney Atkins",85,57,66,19
 "Badaboom","B2K Featuring Fabolous",86,59,77,8
-"Pop That Booty","Marques Houston Featuring Jermaine "JD" Dupri",96,76,91,9
+"Pop That Booty","Marques Houston Featuring Jermaine 'JD' Dupri",96,76,91,9
 "Cowboys Like Us","George Strait",97,38,89,19
 "Chicks Dig It","Chris Cagle",100,53,94,15
 "Why Can't I?","Liz Phair",57,32,52,20
@@ -8359,7 +8358,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "The Anthem","Good Charlotte",91,43,84,11
 "Straight Out Of Line","Godsmack",97,73,94,8
 "Peacekeeper","Fleetwood Mac",98,80,89,11
-"P***ycat","Missy "Misdemeanor" Elliott",100,77,85,5
+"P***ycat","Missy 'Misdemeanor' Elliott",100,77,85,5
 "Losing Grip","Avril Lavigne",93,64,70,6
 "Girlfriend","B2K",97,30,80,13
 "Get By","Talib Kweli",98,77,87,10
@@ -8376,7 +8375,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Superman","Eminem",94,15,86,16
 "All The Things She Said","t.A.T.u.",100,20,90,20
 "Mesmerize","Ja Rule Featuring Ashanti",63,2,42,20
-"Gossip Folks","Missy "Misdemeanor" Elliott Featuring Ludacris",66,8,59,20
+"Gossip Folks","Missy 'Misdemeanor' Elliott Featuring Ludacris",66,8,59,20
 "No One Knows","Queens Of The Stone Age",89,51,87,20
 "Fine Again","Seether",98,61,90,20
 "No One's Gonna Change You","Reina",99,96,100,5
@@ -8447,7 +8446,6 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "A Lot Of Things Different","Kenny Chesney",96,55,94,15
 "What We Do","Freeway Featuring Jay-Z & Beanie Sigel",97,97,0,2
 "I'd Rather","Luther Vandross",100,83,100,20
-"Work It","Missy "Misdemeanor" Elliott",44,2,31,25
 "dontchange","Musiq",48,17,47,26
 "Disease","matchbox twenty",81,29,76,20
 "You Know You're Right","Nirvana",87,45,85,20
@@ -8525,7 +8523,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Flake","Jack Johnson",93,73,90,17
 "I Keep Looking","Sara Evans",95,35,95,19
 "Two Wrongs","Wyclef Jean Featuring Claudette Ortiz",96,28,99,20
-"Burnin' Up","Faith Evans Featuring Missy "Misdemeanor" Elliott",97,60,93,15
+"Burnin' Up","Faith Evans Featuring Missy 'Misdemeanor' Elliott",97,60,93,15
 "Why I Love You","B2K",100,73,84,4
 "Just Like A Pill","P!nk",51,8,39,20
 "Running Away","Hoobastank",54,44,59,20
@@ -8611,7 +8609,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Living And Living Well","George Strait",62,27,62,20
 "I Don't Have To Be Me ('til Monday)","Steve Azar",75,35,72,20
 "My Heart Is Lost To You","Brooks & Dunn",92,48,77,13
-"Down A** Chick","Ja Rule Featuring Charli "Chuck" Baltimore",94,21,85,19
+"Down A** Chick","Ja Rule Featuring Charli 'Chuck' Baltimore",94,21,85,19
 "Quitame Ese Hombre","Pilar Montenegro",97,74,97,13
 "Don't Say Goodbye","Paulina Rubio",98,41,95,16
 "How You Remind Me","Nickelback",50,1,45,49
@@ -8705,7 +8703,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Bouncin' Back (Bumpin' Me Against The Wall)","Mystikal",96,37,90,20
 "The World's Greatest","R. Kelly",97,34,94,18
 "Closet Freak","Cee-Lo",98,98,0,3
-"Take Away","Missy "Misdemeanor" Elliott Featuring Ginuwine & Tweet",100,45,88,20
+"Take Away","Missy 'Misdemeanor' Elliott Featuring Ginuwine & Tweet",100,45,88,20
 "Hey Baby","No Doubt Featuring Bounty Killer",49,5,44,20
 "7 Days","Craig David",54,10,42,20
 "Bring On The Rain","Jo Dee Messina With Tim McGraw",57,36,58,20
@@ -8730,7 +8728,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Break Ya Neck","Busta Rhymes",64,26,53,20
 "Brotha","Angie Stone",89,52,88,20
 "Jigga","JAY-Z",99,66,92,9
-"Knoc","Knoc-Turn'Al With Dr. Dre & Missy "Misdemeanor" Elliott",100,98,98,3
+"Knoc","Knoc-Turn'Al With Dr. Dre & Missy 'Misdemeanor' Elliott",100,98,98,3
 "Drops Of Jupiter (Tell Me)","Train",47,5,45,53
 "Alive","P.O.D.",87,41,82,20
 "Just Let Me Be In Love","Tracy Byrd",96,64,81,10
@@ -8817,7 +8815,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "What's Going On","All Star Tribute",94,27,95,10
 "Take You Out","Luther Vandross",95,26,0,17
 "Bad Day","Fuel",99,64,97,20
-"One Minute Man","Missy "Misdemeanor" Elliott",46,15,43,21
+"One Minute Man","Missy 'Misdemeanor' Elliott",46,15,43,21
 "Only In America","Brooks & Dunn",53,33,50,20
 "Can't Deny It","Fabolous Featuring Nate Dogg",59,25,51,20
 "I'm A Thug","Trick Daddy",88,17,85,20
@@ -8883,7 +8881,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Ghetto Girls","Lil Bow Wow",98,91,100,4
 "Pop","'N Sync",99,19,90,15
 "Bia' Bia'","Lil Jon & The East Side Boyz Featuring Ludacris, Too Short, Big Kap & Chyna Whyte",100,94,94,3
-"Get Ur Freak On","Missy "Misdemeanor" Elliott",47,7,35,24
+"Get Ur Freak On","Missy 'Misdemeanor' Elliott",47,7,35,24
 "I Could Not Ask For More","Sara Evans",82,35,83,20
 "Why They Call It Falling","Lee Ann Womack",91,78,87,7
 "Don't Mess With The Radio","Nivea",96,90,90,3
@@ -8991,7 +8989,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Like, Wow!","Leslie Carter",99,99,0,1
 "Too Little Too Late","Barenaked Ladies",100,86,99,4
 "No More (Baby I'ma Do Right)","3LW",35,23,30,25
-"It Wasn't Me","Shaggy Featuring Ricardo "RikRok" Ducent",44,1,33,25
+"It Wasn't Me","Shaggy Featuring Ricardo 'RikRok' Ducent",44,1,33,25
 "It's Over Now","112",52,6,36,20
 "Bow Wow (That's My Name)","Lil Bow Wow",92,21,84,20
 "My Everything","98 Degrees",95,34,98,20
@@ -9036,7 +9034,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Again","Lenny Kravitz",4,4,4,18
 "Love Don't Cost A Thing","Jennifer Lopez",5,3,5,15
 "It's Over Now","112",6,6,8,15
-"It Wasn't Me","Shaggy Featuring Ricardo "RikRok" Ducent",7,1,6,20
+"It Wasn't Me","Shaggy Featuring Ricardo 'RikRok' Ducent",7,1,6,20
 "Don't Tell Me","Madonna",8,4,7,15
 "Promise","Jagged Edge",9,9,9,13
 "Put It On Me","Ja Rule Featuring Lil' Mo & Vita",10,9,10,13
@@ -9321,7 +9319,7 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Crybaby","Mariah Carey Featuring Snoop Dogg",95,28,90,7
 "Best Of Me","Mya Featuring Jadakiss",97,50,94,17
 "Cherchez LaGhost","Ghostface Killah",98,98,0,1
-"Take That","Torrey Carter Featuring Missy "Misdemeanor" Elliott",99,86,87,7
+"Take That","Torrey Carter Featuring Missy 'Misdemeanor' Elliott",99,86,87,7
 "Dancing Queen","A*Teens",100,95,95,5
 "Say My Name","Destiny's Child",47,1,43,32
 "Couldn't Last A Moment","Collin Raye",89,43,73,20
@@ -9543,7 +9541,6 @@ Title,Artist,Rank,Peak Position,Last Position,Weeks
 "Back At One","Brian McKnight",4,2,4,23
 "Bring It All To Me","Blaque",5,5,5,15
 "Blue (Da Ba Dee)","Eiffel 65",6,6,9,8
-"Hot Boyz","Missy 'Misdemeanor' Elliott Featuring NAS, EVE & Q-Tip",7,5,7,10
 "That's The Way It Is","Celine Dion",8,8,11,12
 "I Need To Know","Marc Anthony",9,3,6,21
 "My Love Is Your Love","Whitney Houston",10,4,10,22
