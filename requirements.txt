@@ -1,0 +1,9 @@
+lyricsgenius
+statsmodel
+numpy
+scipy
+bs4
+billboard
+pandas
+matplotlib
+sklearn
