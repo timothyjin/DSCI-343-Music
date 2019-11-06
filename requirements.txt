@@ -7,3 +7,5 @@ billboard
 pandas
 matplotlib
 sklearn
+nlkt
+wordcloud

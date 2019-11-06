@@ -7,6 +7,8 @@ import csv
 import io
 import scipy.stats
 import math
+from wordcloud import WordCloud
+
 def loadwords():
     words = pd.read_csv("some.csv",header=None)
 def countVector(lyrics,word):
@@ -27,12 +29,20 @@ def linReg(x,y,xlabel = "",ylabel = "",title = ""):
     plt.plot(x2, y2)
     plt.show()
     return slope, intercept, r_value, p_value, std_err
-data = pd.read_csv("billboard_w_lyrics.csv")
+data = pd.read_csv("billboard_formatted_lyrics.csv")
 data = data.to_numpy()
 print(data.shape)
 peak = data[:,3]
 weeks = data[:,5]
 lyrics = data[:,-1]
-loveCount = countVector(lyrics,"I")
+loveCount = countVector(lyrics,"love")
 #print(linReg(loveCount,peak,"Number of times I appeared in song", "Peak ranking", "Association between the word I and peak ranking"))
 print(linReg(loveCount,weeks,"Number of times Love appeared in song", "weeks", "Association between the word I and top weeks"))
+counts = pd.read_csv("formatted_count.csv")
+
+tuples = [tuple(x) for x in counts.values]
+wordcloud = WordCloud( width=600, height=600, min_font_size=8, max_words=100).generate_from_frequencies(dict(tuples))
+plt.figure()
+plt.imshow(wordcloud, interpolation="bilinear")
+plt.axis("off")
+plt.show()

@@ -5,8 +5,22 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import csv
 import io
+from nltk.corpus import stopwords
+import re
+import wordcloud
+
+stop = stopwords.words('english')
+
 
 data = pd.read_csv("billboard_w_lyrics.csv")
+data['Lyrics'] = data['Lyrics'].apply(lambda x : x.lower())
+data['Lyrics'] = data['Lyrics'].apply(lambda x : re.sub(r'\d+','', x))
+data['Lyrics'] = data['Lyrics'].apply(lambda x : ' '.join([word for word in x.split() if word not in (stop)]))
+data['Lyrics'] = data['Lyrics'].apply(lambda x : re.sub(r"i'm",'', x))
+data['Lyrics'] = data['Lyrics'].apply(lambda x : re.sub(r"you",'', x))
+
+data.to_csv(r'billboard_formatted_lyrics.csv')
+
 data = data.to_numpy()
 print(data.shape)
 peak = data[:,3]
@@ -35,7 +49,7 @@ print(words_from_all.shape)
 
 word,count = np.unique(words_from_all,return_counts=True)
 count, words = zip(*sorted(zip(count, word),reverse=True))
-with io.open("some.csv", "w", encoding="utf-8",newline='') as f:
+with io.open("formatted_count.csv", "w", encoding="utf-8",newline='') as f:
     writer = csv.writer(f)
     writer.writerows(zip(words,count))
 x_count_plot = range(len(count))
