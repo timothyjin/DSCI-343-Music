@@ -4,3 +4,4 @@
 ## Analysis To-Do
 - [ ] Find reasons to the peak in weeks on board graph.
 - [ ] Do entropy/clustering analysis
+- [ ] Clustering on Jaccard
