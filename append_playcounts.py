@@ -24,10 +24,19 @@ input_data = pd.read_csv(input_file_name, delimiter=',', header=0, quotechar='"'
 output_data = open(output_file_name, 'a+', encoding='utf-8')
 writer = csv.writer(output_data, lineterminator='\n')
 
-for song in input_data.itertuples():
+start_index = int(input("From which song index to start scraping? "))
+stop_index = int(input("At which song index to stop scraping? "))
+
+print(input_data.head())
+
+for idx, song in enumerate(input_data.itertuples()):
+    if idx < start_index:
+        continue
+    elif idx > stop_index:
+        break
     song_name = getattr(song, 'Title')
     song_artist = getattr(song, 'Artist')
-    print(song_artist, '-', song_name)
+    print(idx, ':', song_artist, '-', song_name)
     track_index = getattr(song, 'Number') - 1
 
     url = base_url + getattr(song, 'ID')
