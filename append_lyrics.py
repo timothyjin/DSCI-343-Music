@@ -1,3 +1,4 @@
+import sys
 import os
 import csv
 import lyricsgenius
@@ -6,13 +7,25 @@ import re
 import string
 
 
+# Return song title without featuring artists (Genius search does not work well with these)
+def searchable_title(title):
+    return re.sub(r'\ - (.*)| \(?feat\. (.*)| \(?featuring (.*)| \(with (.*)| \(& (.*)| \(and (.*)|', '', title)
+
+
+# Return string without bracketed annotations, newlines, or double quotes
+def format_string(string):
+    return re.sub(r'\[(.*?)\]', ' ', string).replace('\n', ' ').replace('\r', ' ').replace('"', "'")
+
+
 genius = lyricsgenius.Genius('') #insert API token here
 genius.verbose = False
 genius.remove_section_headers = True
 genius.skip_non_songs = True
 
-input_file_name = 'samples/pop_sample_counts.csv'
-output_file_name = 'samples/pop_sample_lyrics.csv'
+genre = sys.argv[1]
+input_file_name = 'samples/' + genre + '_sample_counts.csv'
+output_file_name = 'samples/' + genre + '_sample_lyrics.csv'
+
 if not os.path.exists(input_file_name):
     print('File not found')
     sys.exit(1)
@@ -35,9 +48,9 @@ for idx, row in enumerate(input_data.itertuples()):
     artist = getattr(row, 'Artist')
     count = getattr(row, 'Count')
     print(idx, ":", artist, "-", title)
-    song = genius.search_song(title, artist)
+    song = genius.search_song(searchable_title(title), artist)
     if song is None:
         continue
-    formatted_lyrics = re.sub(r'\[(.*?)\]', ' ', song.lyrics).replace('\n', ' ').replace('\r', ' ').replace('"', "'")
+    formatted_lyrics = format_string(song.lyrics)
     printable_lyrics = ''.join(filter(lambda x: x in string.printable, formatted_lyrics))
-    writer.writerow([title, artist, str(count), printable_lyrics])
+    writer.writerow([title, artist, count, printable_lyrics])
